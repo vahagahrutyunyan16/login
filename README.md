@@ -1,2 +1,2 @@
 # login
-https://github.com/vahagahrutyunyan16/login.git
+https://github.com/vahagahrutyunyan16/login
