@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Secular+One&display=swap');
+
+body{
+    background: url(mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.container1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 400px;
+    height: 380px;
+    border-radius: 50px 0;
+}
+.container p{
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.Lemail{
+    margin-top: 20px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.email{
+    border-radius: 13px 0;
+    height: 30px;
+    background: rgba(0, 0, 0, 0);
+    border: solid 2px white;
+    transition-duration: 0.4s;
+
+}
+.email:hover{
+    scale: 1.02;
+}
+.Lpassword{
+    margin-top: 20px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.password{
+    border-radius: 13px 0;
+    height: 30px;
+    background: rgba(0, 0, 0, 0);
+    border: solid 2px white;
+    transition-duration: 0.4s;
+
+    
+}
+.password:hover{
+    scale: 1.02;
+}
+.container button{
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border: none;
+    background: #F2158F;
+    color: white;
+    transition-duration: 0.4s;
+}
+.container button:hover{
+    background-color: white;
+    color: #F2158F;
+    scale: 1.02;
+}
+a{
+    margin-top: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-size: 16px;
+    color: white;
+}
